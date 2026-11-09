@@ -25,3 +25,18 @@ This project involves the development of a virtual cybersecurity and penetration
 The lab is designed to provide a safe and controlled environment for practising cybersecurity techniques, including network scanning, reconnaissance, vulnerability assessment and other penetration-testing activities.
 
 It is configured within a private virtual network, allowing additional virtual machines to be integrated as target systems for authorized security testing, practical exercises and further experimentation.
+
+-----
+## 🎯 Objectives
+
+The main objectives of this project are to:
+
+- Install and configure VirtualBox.
+- Install/import Kali Linux as a virtual machine.
+- Create a private **NAT Network** for the cybersecurity lab.
+- Configure network connectivity for Kali Linux.
+- Assign a consistent IP address to the Kali VM.
+- Verify network connectivity and DNS resolution.
+- Take a clean VM snapshot for recovery.
+- Document the complete setup process.
+- Prepare the environment for future cybersecurity projects.
