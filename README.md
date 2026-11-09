@@ -54,3 +54,6 @@ It can be used for activities such as:
 - Web security testing
 - Exploitation practice
 - Security-tool experimentation
+-----
+## 🏗️ Virtual Lab structure
+<img width="952" height="808" alt="image" src="https://github.com/user-attachments/assets/2909a7f4-28af-4132-88ff-d3a09a0f375e" />
