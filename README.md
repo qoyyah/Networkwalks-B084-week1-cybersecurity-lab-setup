@@ -128,3 +128,38 @@ The VM was allocated:
 RAM: 4096 MB
 ```
 <img width="952" height="808" alt="image" src="https://github.com/user-attachments/assets/2909a7f4-28af-4132-88ff-d3a09a0f375e" />
+A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
+
+-----
+
+## Step 5. Configure the Kali Linux Network
+
+The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+
+Example configuration:
+
+```text
+IP Address: 10.0.0.2
+Subnet Mask: 255.255.255.0
+Gateway: 10.0.0.1
+DNS: 8.8.8.8
+```
+
+A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+
+<img width="642" height="419" alt="image" src="https://github.com/user-attachments/assets/8f1cf1e6-a800-4c1d-83e8-9f8755e836ba" />
+
+
+-----
+## Step 6. Create a Clean VM Snapshot
+
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+```text
+week 1 kali config setup
+```
+
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
