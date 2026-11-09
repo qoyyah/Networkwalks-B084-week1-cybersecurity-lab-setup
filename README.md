@@ -56,9 +56,11 @@ It can be used for activities such as:
 - Security-tool experimentation
 -----
 ## 🏗️ Virtual Lab structure
-![](1-screenshot-title-image.png)
+
+<img width="509" height="233" alt="image" src="https://github.com/user-attachments/assets/0d916bbe-8ca2-48d9-9185-9d8f59faad57" />
 
 Additional target machines can be added to the same virtual network in future projects.
+
 -----
 ## ⚙️ Lab Configuration
 
