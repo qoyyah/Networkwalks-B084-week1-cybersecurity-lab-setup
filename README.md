@@ -56,7 +56,7 @@ It can be used for activities such as:
 - Security-tool experimentation
 -----
 ## 🏗️ Virtual Lab structure
-<img width="952" height="808" alt="image" src="https://github.com/user-attachments/assets/2909a7f4-28af-4132-88ff-d3a09a0f375e" />
+![](1-screenshot-title-image.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 -----
@@ -101,3 +101,28 @@ DHCP:         Enabled
 IPv6:         Disabled
 
 <img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/e609296f-88cf-4a4b-9a9b-10c747b02f31" />
+
+A **NAT Network** was configured to enable communication between multiple virtual machines connected to the same virtual network while still providing access to external networks.
+
+This configuration creates a suitable environment for integrating future attacker and target virtual machines, allowing them to communicate and interact during controlled cybersecurity testing.
+
+-----
+## Step 4. Import Kali Linux
+
+The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+
+The VM network adapter was configured as follows:
+
+```text
+Adapter 1
+Attached to: NAT Network
+Network:     NatNetwork
+Adapter Type: Intel PRO/1000 MT Desktop
+```
+
+The VM was allocated:
+
+```text
+RAM: 4096 MB
+```
+<img width="952" height="808" alt="image" src="https://github.com/user-attachments/assets/2909a7f4-28af-4132-88ff-d3a09a0f375e" />
