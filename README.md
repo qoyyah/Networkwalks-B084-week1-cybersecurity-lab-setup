@@ -88,6 +88,7 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 2. Install VirtualBox
 
 VirtualBox was installed as the hypervisor.
+
 ---
 ## Step 3. Create the NAT Network
 
@@ -98,3 +99,5 @@ Network Name: NatNetwork
 IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
+
+<img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/e609296f-88cf-4a4b-9a9b-10c747b02f31" />
