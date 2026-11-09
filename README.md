@@ -182,3 +182,68 @@ If a future exercise changes or damages the VM configuration, the machine can be
 # 🐞 Problems Encountered & Solutions
 
 I did not encounter any specific problem during setup or network connection. 
+
+-----
+
+# 💡 What I Learned
+
+Through this project, I gained practical experience in building and configuring a virtual environment for cybersecurity training and hands-on security testing.
+
+The key concepts and technical skills I developed include:
+
+### 1. Understanding NAT and NAT Network
+
+I learned the differences between standard NAT and NAT Network configurations in VirtualBox.
+
+While standard NAT provides internet connectivity to an individual virtual machine, a NAT Network enables multiple virtual machines connected to the same network to communicate with one another while also supporting outbound internet access.
+
+This makes NAT Network a suitable option for developing a multi-machine cybersecurity laboratory.
+
+### 2. Virtual Machine Networking
+
+I gained an understanding of how VirtualBox network adapters connect virtual machines to different network environments and how network configurations influence communication between virtual systems.
+
+### 3. Static IP Address Configuration
+
+I learned how to assign and verify static IPv4 addresses in Kali Linux, including configuring subnet masks, default gateways, and DNS settings to establish proper network connectivity.
+
+### 4. Virtual Machine Snapshots
+
+I learned the importance of creating snapshots before carrying out potentially risky configurations or experimental security activities.
+
+Snapshots provide recovery points that make it possible to restore a virtual machine to a previously stable state when needed.
+
+### 5. Technical Documentation
+
+I developed a better understanding of the importance of maintaining clear and structured project documentation.
+
+This includes recording commands, network configurations, screenshots, troubleshooting steps, challenges encountered and their corresponding solutions. Proper documentation supports reproducibility, accountability and effective communication in professional cybersecurity practice.
+
+-----
+
+# 🔐 Security & Ethical Use
+
+This laboratory is intended strictly for education purposes only.
+
+-----
+
+# 🔗 Tools & Resources
+
+- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
+-----
+
+# 👤 Author
+
+**Rukayat Sodiq**\
+Cybersecurity Professional B084
+
+LinkedIn: https://www.linkedin.com/in/alaorukayatifeoluwa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQjIgLs0cRzqPZJGq2HJKuQ%3D%3D
+
+-----
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
